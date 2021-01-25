@@ -1,0 +1,23 @@
+.channelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.channelRow__text {
+  margin-left: 4rem;
+  color: #606060;
+  display: flex;
+  flex-direction: column;
+}
+.channelRow__text > h3 {
+  margin-bottom: 0.5rem;
+}
+.channelRow__text > p {
+  line-height: 1.5rem;
+}
+.channelRow__img {
+  width: 120px !important;
+  height: 120px !important;
+}

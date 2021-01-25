@@ -1,0 +1,47 @@
+.videoCard {
+  margin-top: 0.5rem;
+  max-width: 250px;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+.videoCard:hover {
+  opacity: 0.8;
+}
+
+.videoCard__thumbnail {
+  width: 250px;
+  height: 150px;
+}
+
+.videoCard__info {
+  display: flex;
+  margin-top: 0.6rem;
+}
+.videoCard_avatar {
+  margin-right: 0.8rem;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.videoCard__text > p {
+  line-height: 1.4rem;
+  font-size: 17px;
+  color: rgb(70, 70, 70);
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+.videoCard__text > small {
+  line-height: 1.4rem;
+  font-size: 14px;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

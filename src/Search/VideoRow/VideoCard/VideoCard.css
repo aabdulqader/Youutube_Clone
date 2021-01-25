@@ -1,0 +1,39 @@
+.video {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+.video:hover {
+  opacity: 0.8;
+}
+.video__thumbnail {
+  width: 320px !important;
+  height: 200px !important;
+  object-fit: contain;
+}
+
+.video__info {
+  margin-left: 3rem;
+}
+.video__title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.video__time {
+  color: gray;
+  font-size: 14px;
+}
+
+.video__channelName {
+  font-weight: 800;
+  font-size: 18px;
+  margin: 5px 0;
+}
+.video__desc {
+  color: rgb(97, 96, 96);
+}
